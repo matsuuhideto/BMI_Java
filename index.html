@@ -1,6 +1,21 @@
-function bmiCalculator(weight, height) {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
 
-    return weight/Math.pow(height,2)
-}
-var bmi = bmiCalculator(65, 1.8);
-alert("Your BMI is " + Math.round(bmi));
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+ <lavel for="weight">Weight</lavel>
+            <input type="number" id="weight">
+
+        <lavel for="height">Height</lavel>
+            <input type="number" id="height">
+<button onclick="bmiCalculator()">test</button>
+    </form>
+    <div id="result"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
